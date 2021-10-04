@@ -144,7 +144,7 @@ def compute_score(elt, Options, weights, Min, Max, norm_params):
 	communication = 1.0 if communication > 1.0 else communication
 
 	try:
-		savings = float(row['Savings'])
+		savings = row['Savings']
 		savings = 1.0 if savings > 1.0 else savings
 	except:
 		pass
