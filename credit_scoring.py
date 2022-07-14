@@ -188,7 +188,7 @@ def lend(score, for_guarantor=False):
 	LOWER = .5 # Lower bound 
 	UPPER = .8 # Upper bound
 	ALPHA = 1 # 
-	MAX_LOAN_SIZE = 20_000 # Maximum of the loan size
+	MAX_LOAN_SIZE = 10_000 # Maximum of the loan size
 	epsilon = .5 # To handle random loans
 
 
